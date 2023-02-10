@@ -1,0 +1,19 @@
+import Vue from 'vue'
+import App from './App.vue'
+import router from './router'
+import store from './store'
+import './style/transition.css'
+import './plugins/element.js'
+import './style/global.css'
+import './assets/css/iconfont.css'
+import './permission' // permission control
+import Fragment from 'vue-fragment'
+Vue.use(Fragment.Plugin)
+
+Vue.config.productionTip = false
+
+new Vue({
+  router,
+  store,
+  render: h => h(App)
+}).$mount('#app')
