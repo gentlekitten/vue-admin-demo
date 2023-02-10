@@ -7,7 +7,7 @@ vue2全家桶+elementUI搭建的权限后台管理模板
 ```
 
 ### 效果图
-![输入图片说明](public/index.png)
+![输入图片说明](https://gitee.com/xiaoming23/vue-admin-demo/raw/master/public/index.png)
 
 ## Project setup
 ```
